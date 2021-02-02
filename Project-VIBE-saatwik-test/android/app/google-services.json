@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677022199715",
+    "firebase_url": "https://vibe-a3591.firebaseio.com",
+    "project_id": "vibe-a3591",
+    "storage_bucket": "vibe-a3591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677022199715:android:497c6b880d98a0f511f416",
+        "android_client_info": {
+          "package_name": "com.example.tinder_spotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677022199715-4p5k9tvuuko4j3bas1vesjfkdmv8atq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPfu_P1AhuuddOVrc6Bo839yefGX094Xs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677022199715-4p5k9tvuuko4j3bas1vesjfkdmv8atq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

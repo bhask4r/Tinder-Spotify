@@ -1,4 +1,4 @@
-import 'package:clippy_flutter/arc.dart';
+
 import 'package:flutter/material.dart';
 import 'package:tinder_spotify/components/container.dart';
 import 'package:tinder_swipecard/cards.dart';
@@ -36,6 +36,8 @@ class _SwipeCardState extends State<SwipeCard> {
       ),
 
       body: Stack(
+
+
         fit: StackFit.expand,
         overflow: Overflow.visible,
         children: [
@@ -45,53 +47,7 @@ class _SwipeCardState extends State<SwipeCard> {
             myCallback: (decision) {},
           ),
 
-          Positioned(
-            bottom: 0,
-            child: Arc(
-              arcType: ArcType.CONVEX,
-              edge: Edge.TOP,
-              height: 70.0,
-              clipShadows: [ClipShadow(color: Colors.white)],
-              child: Opacity(
-                opacity: 0.5,
-                child: new Container(
-                  height: 150,
-                  width: MediaQuery.of(context).size.width,
-                  color: Colors.lightBlueAccent,
-                ),
-              ),
-            ),
-          ),
-          Positioned(
-            left: 50,
-            bottom: 60,
-            child:  RawMaterialButton(
 
-              shape: CircleBorder(),
-              elevation: 100.0,
-              child: IconButton(
-                iconSize: 90,
-                onPressed: null,
-                icon:  Image.asset('images/deselect.png'),
-              ),
-              onPressed: null,
-            ),
-          ),
-          Positioned(
-            right: 50,
-            bottom: 60,
-            child:  RawMaterialButton(
-
-              shape: CircleBorder(),
-              elevation: 100.0,
-              child: IconButton(
-                iconSize: 90,
-                onPressed: null,
-                icon:  Image.asset('images/select.png'),
-              ),
-              onPressed: null,
-            ),
-          ),
         ],
       ),
     );
